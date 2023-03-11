@@ -1,0 +1,142 @@
+.memberships {
+    position: relative;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.memberships_img-container {
+    width: 100vw;
+    overflow: hidden;
+    position: sticky;
+    top: 50vh;
+}
+
+.memberships_drippy {
+    width: 100%;
+    animation: drip 10s infinite alternate;
+    position: sticky;
+    transition: ease-in-out 2s;
+    top: 50vh;
+    margin: auto;
+    left: 0;
+    right: 0;
+
+}
+
+@keyframes drip {
+    from {
+        width: 100%;
+
+    }
+
+    to {
+        width: 130%;
+    }
+}
+
+.memberships_head {
+    text-align: center;
+    font-size: 2.9rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+.memberships_subhead {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 5vh;
+    opacity: .8;
+    color: rgb(245, 120, 195);
+
+}
+
+.memberships_padding {
+    margin-top: -15vh;
+    padding: 5vh 5vw;
+    z-index: 2;
+    position: relative;
+
+}
+
+.membership-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4vh 0;
+
+}
+
+.membership-top,
+.membership-bottom {
+    width: 90vw;
+    background-color: #f3f0df;
+    /* border: 1px solid rgba(174, 174, 174, 0.341); */
+}
+
+.membership-top {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+.membership-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 4px;
+    font-size: 1.2rem;
+
+
+
+}
+
+.membership-bottom h3 {
+    font-size: 1rem;
+}
+
+.membership-bottom li {
+    margin-left: 20px;
+    padding: 5px 0;
+    font-size: 1rem;
+    list-style: decimal;
+}
+
+.membership-price {}
+
+.membership-subprice {
+    font-size: .8rem;
+    opacity: .6;
+    color: rgb(77, 74, 74);
+    margin-top: -10px;
+}
+
+
+.membership_main-btn {
+    background-color: rgb(10, 9, 9);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 17px 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+
+.membership_second-btn {
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom: 1px dashed black;
+    width: fit-content;
+    opacity: .8;
+}
