@@ -1,0 +1,120 @@
+.benefits {
+    padding: 15vh 15vw;
+    
+}
+
+.benefits_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+
+.benefits h1 {
+    font-size: calc(2vw + 4vh);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.benefits h2 {
+    font-size: calc(1vw + 1vh);
+    margin-bottom: 20px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    width: 40vw;
+    text-align: center;
+}
+
+.benefits a {
+    background-color: black;
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 50px;
+}
+
+.benefit-contaienr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 15vw;
+    text-align: center;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.benefit-contaienr img {
+    width: 75px;
+    margin-bottom: 10px;
+}
+
+.benefit-contaienr h3 {
+    font-size: 1.5rem;
+}
+
+.benefit-contaienr p {
+    font-size: 1.1rem;
+}
+
+@media (width <=742px) {
+    .benefits {
+        padding: 20vh 10vw;
+        
+    }
+    .benefits h1 {
+        font-size: calc(2vw + 4vh);
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .benefits h2 {
+        font-size: calc(1vw + 1.5vh);
+        margin-bottom: 20px;
+        font-weight: 100;
+        color: rgb(0, 0, 0);
+        width: 70vw;
+        text-align: center;
+    }
+    
+    .benefits a {
+        background-color: black;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2rem;
+        border-radius: 50px;
+    }
+
+    .benefits-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vh;
+    }
+
+    .benefit-contaienr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 70vw;
+        text-align: center;
+    }
+
+
+}
