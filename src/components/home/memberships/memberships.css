@@ -1,7 +1,6 @@
 .memberships {
     position: relative;
     background-color: #ffffff;
-    position: relative;
     padding-bottom: 20vh;
 }
 
@@ -39,14 +38,15 @@
 
     .memberships_head {
         text-align: center;
-        font-size: 2.8rem;
+        font-size: calc(2vw + 4vh);
+
         color: rgb(0, 0, 0);
         margin-bottom: 5px;
     }
 
     .memberships_subhead {
         text-align: center;
-        font-size: 1.2rem;
+        font-size: calc(2.5vw + 2vh);
         margin-bottom: 5vh;
         opacity: .7;
         color: rgb(245, 120, 195);
@@ -183,14 +183,14 @@
 
     .memberships_head {
         text-align: center;
-        font-size: 4.8rem;
+        font-size: calc(2vw + 4vh);
         color: rgb(0, 0, 0);
         margin-bottom: 25px;
     }
 
     .memberships_subhead {
         text-align: center;
-        font-size: 2.2rem;
+        font-size: calc(1.5vw + 2vh);
         margin-bottom: 5vh;
         opacity: .7;
         color: rgb(255, 168, 220);
@@ -220,6 +220,7 @@
         box-sizing: border-box;
 
 
+
         /* border: 1px solid rgba(174, 174, 174, 0.341); */
     }
 
@@ -231,6 +232,8 @@
         color: rgb(0, 0, 0);
         font-size: 1.2rem;
         height: 50vh;
+        min-height: 450px;
+
     }
 
     .membership-bottom {
@@ -242,6 +245,7 @@
         font-size: 1.2rem;
         height: 38vh;
         border-top: 2px solid white;
+        min-height: 350px;
 
 
 
