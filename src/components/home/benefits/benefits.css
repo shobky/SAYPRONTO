@@ -1,6 +1,6 @@
 .benefits {
     padding: 15vh 15vw;
-    
+
 }
 
 .benefits_header {
@@ -70,14 +70,15 @@
 @media (width <=742px) {
     .benefits {
         padding: 20vh 10vw;
-        
+
     }
+
     .benefits h1 {
         font-size: calc(2vw + 4vh);
         margin-bottom: 20px;
         text-align: center;
     }
-    
+
     .benefits h2 {
         font-size: calc(1vw + 1.5vh);
         margin-bottom: 20px;
@@ -86,7 +87,7 @@
         width: 70vw;
         text-align: center;
     }
-    
+
     .benefits a {
         background-color: black;
         padding: 20px;

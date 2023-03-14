@@ -54,7 +54,6 @@
         font-size: calc(3vw + 3vh);
         text-align: center;
         padding: 15vh 10vw 0 10vw;
-        z-index: 2;
         position: relative;
     }
 

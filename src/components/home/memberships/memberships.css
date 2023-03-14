@@ -2,6 +2,7 @@
     position: relative;
     background-color: #ffffff;
     position: relative;
+    padding-bottom: 20vh;
 }
 
 @media (width < 742px) {
@@ -55,7 +56,6 @@
     .memberships_padding {
         margin-top: -15vh;
         padding: 5vh 5vw;
-        z-index: 2;
         position: relative;
 
     }
@@ -150,7 +150,6 @@
         overflow: hidden;
         top: 25vh;
         position: sticky;
-        z-index: 1;
         transform: rotate(180deg);
     }
 
@@ -178,7 +177,6 @@
     .memberships_padding {
         margin-top: -15vh;
         padding: 5vh 5vw;
-        z-index: 2;
         position: relative;
 
     }
