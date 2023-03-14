@@ -39,7 +39,7 @@ const Memberships = () => {
                         <div className='membership-top'>
                             <h2>Quarterly</h2>
                             <p className='membership-subheading'>Save $500 per month.</p>
-                            <h2 className='membership-price'>$4995/m</h2>
+                            <h2 className='membership-price'>$4495/m</h2>
                             <p className='membership-subprice'>Paid quarterly</p>
                             <button className='membership_main-btn membership__btn'>Get started</button>
                             <button className='membership_second-btn membership__btn'>Book a call</button>

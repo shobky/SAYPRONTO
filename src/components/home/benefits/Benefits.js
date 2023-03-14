@@ -45,7 +45,7 @@ const Benefits = () => {
                 <div className='benefit-contaienr'>
                     <img alt='' className='benefits_ico' src={maximize} />
                     <h3>Flexible and scalable</h3>
-                    <p>cale up or down as needed, and pause or cancel at anytime..</p>
+                    <p>Scale up or down as needed, and pause or cancel at anytime..</p>
                 </div>
                 <div className='benefit-contaienr'>
                     <img alt='' className='benefits_ico' src={fingerprint} />
