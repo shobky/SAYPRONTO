@@ -63,7 +63,7 @@
     }
 
     .footer_footer ul {
-        font-size: calc(1.5vw + 1vh);
+        font-size: calc(1vw + 1vh);
         display: grid;
         grid-template-columns: 20vw 20vw;
         list-style: none;

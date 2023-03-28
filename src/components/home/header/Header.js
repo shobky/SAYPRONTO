@@ -1,12 +1,27 @@
 import React from 'react'
 import './header.css'
-import { RiMenu4Line } from 'react-icons/ri'
+import { BiMenu } from 'react-icons/bi'
 
 const Header = () => {
     return (
         <div id='header' className='home_header'>
-            <a style={{textDecoration:"none", color:"inherit"}} href='#hero'> <h1 className='home_header_name'>SAYPRONTO</h1></a>
-            <RiMenu4Line className='home_header_menu-ico' />
+            <a style={{ textDecoration: "none", color: "inherit" }} href='#hero'> <h1 className='home_header_name'>SAYPRONTO</h1></a>
+            {
+                window.innerWidth >= 742 ?
+                    <div className='navigation__desktop'>
+                        <a herf="#">Benefits</a>
+                        <a herf="#">Work</a>
+                        <a herf="#">Services</a>
+                        <a herf="#">Use Cases</a>
+                        <a herf="#">Comaare</a>
+                        <a herf="#">Reviews</a>
+                        <a herf="#">aricing</a>
+                        <a herf="#">FAQs</a>
+                    </div>
+                    :
+                    <BiMenu className='home_header_menu-ico' />
+
+            }
         </div>
     )
 }

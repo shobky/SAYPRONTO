@@ -1,5 +1,6 @@
 .benefits {
-    padding: 15vh 15vw;
+    padding: 25vh 15vw;
+    font-family: sans-serif;
 
 }
 
@@ -11,7 +12,7 @@
 }
 
 .benefits h1 {
-    font-size: calc(2vw + 4vh);
+    font-size: calc(3vw + 3vh);
     margin-bottom: 30px;
     text-align: center;
 }
@@ -26,13 +27,13 @@
 }
 
 .benefits a {
-    background-color: black;
-    padding: 25px;
-    color: white;
+    background-color: rgb(10, 9, 9);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    font-size: 16px;
+    margin-top: 15px;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.5rem;
-    border-radius: 50px;
 }
 
 .benefit-contaienr {
@@ -60,11 +61,12 @@
 }
 
 .benefit-contaienr h3 {
-    font-size: 1.5rem;
+    font-size: 20px;
+    height: 50px;
 }
 
 .benefit-contaienr p {
-    font-size: 1.1rem;
+    font-size: 18px;
 }
 
 @media (width <=742px) {

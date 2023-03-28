@@ -24,6 +24,7 @@ const Footer = () => {
 
                 </ul>
             </div>
+            <p>Saypronto</p>
         </div>
     )
 }

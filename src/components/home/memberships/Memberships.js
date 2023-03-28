@@ -5,10 +5,6 @@ import './memberships.css'
 const Memberships = () => {
     return (
         <div className='memberships'>
-            <div className='memberships_img-container'>
-                <img alt='' src={drippy} className="memberships_drippy" />
-
-            </div>
             <div style={{ scrollBehavior: "smooth" }} id='plans' className='memberships_padding'>
                 <h2 className='memberships_head'>Memberships levels</h2>
                 <p className='memberships_subhead'>Choose your plan</p>
