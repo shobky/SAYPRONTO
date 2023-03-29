@@ -13,7 +13,7 @@ import fingerprint from '../../../assets/fingerprint.png'
 
 const Benefits = () => {
     return (
-        <div className='benefits'>
+        <div id='benefits' className='benefits'>
            <div className='benefits_header'>
            <h1 className='be_text_small'>Membership benefits</h1>
             <h2 className='be_text_bold'>Perks you'll love, and more.</h2>

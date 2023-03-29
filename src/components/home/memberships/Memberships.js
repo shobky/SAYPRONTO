@@ -4,8 +4,8 @@ import './memberships.css'
 
 const Memberships = () => {
     return (
-        <div className='memberships'>
-            <div style={{ scrollBehavior: "smooth" }} id='plans' className='memberships_padding'>
+        <div id='plans' className='memberships'>
+            <div style={{ scrollBehavior: "smooth" }}  className='memberships_padding'>
                 <h1 className='ms_text_small'>Pay Monthly Designs</h1>
                 <h2 className='ms_text_bold'>Memberships levels</h2>
                 <p className='memberships_subhead'>As little as $3,995 a month.</p>

@@ -2,7 +2,7 @@ import React from 'react'
 import './services.css'
 const Services = () => {
     return (
-        <div className='services'>
+        <div id="services" className='services'>
             <div className='services-fixed-section'>
                 <div className='services-fixed-text-container'>
                     <p className='services_head'>A full-suite of capabilities.</p>

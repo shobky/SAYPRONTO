@@ -3,7 +3,7 @@ const Home = lazy(() => import('./pages/home/Home'))
 const App = () => {
     return (
         <>
-            <Suspense fallback={<p>Loading...</p>}>
+            <Suspense >
                 <Home />
             </Suspense>
         </>

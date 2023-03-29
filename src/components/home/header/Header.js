@@ -9,9 +9,9 @@ const Header = () => {
             {
                 window.innerWidth >= 742 ?
                     <div className='navigation__desktop'>
-                        <a herf="#">Benefits</a>
+                        <a herf="#benefits">Benefits</a>
                         <a herf="#">Work</a>
-                        <a herf="#">Services</a>
+                        <a herf="#services">Services</a>
                         <a herf="#">Use Cases</a>
                         <a herf="#">Comaare</a>
                         <a herf="#">Reviews</a>

@@ -6,13 +6,15 @@ import Services from '../../components/home/services/Services'
 import Benefits from '../../components/home/benefits/Benefits'
 import Footer from '../../components/home/footer/Footer'
 import AfterHero from '../../components/home/afterHero/AfterHero'
+import Nav from '../../components/nav/Nav'
 
 const Home = () => {
 
     return (
         <div className='home'>
-            <section id='hero' className='hero'>
-                <Header />
+            <section id='home' className='hero'>
+                {/* <Header /> */}
+                <Nav />
                 <div className='hero_container'>
                     <h1 className='text_small'>Design & Development Agency</h1>
                     <h2 className='text_bold'>The unlimited design subscription that does it all.</h2>

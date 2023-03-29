@@ -19,7 +19,7 @@ const Footer = () => {
                     <li>Contact</li>
                     <li>Get started</li>
                     <li>Privacy policy</li>
-                    <li className='footer_login_link'>Login <HiLogin className="footer_login-ico"/></li>
+                    {/* <li className='footer_login_link'>Login <HiLogin className="footer_login-ico"/></li> */}
                     <li>Terms & conditions</li>
 
                 </ul>
