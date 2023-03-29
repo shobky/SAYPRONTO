@@ -1,26 +1,25 @@
-.after-hero-container{
+.after-hero-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
-    min-height: 500px;
-
     gap: 8vh;
-    padding: 25vh 10vw 15vw 10vw;
+    padding: 0vh 10vw 15vw 10vw;
     text-align: center;
     font-family: sans-serif;
     background-color: black;
     color: white;
 }
 
-.after-hero_flex{
+.after-hero_flex {
     display: flex;
     gap: 2.5vw;
     margin-top: 15vh;
 
 }
-.after-hero_flex-item{
+
+.after-hero_flex-item {
     padding: 0 1vw;
     display: grid;
     align-items: center;
@@ -29,14 +28,68 @@
     border: 1px solid rgba(184, 184, 184, 0.438);
     border-radius: 10px;
 }
-.after-hero_flex-item:hover{
+
+.after-hero_flex-item:hover {
     box-shadow: 0 0 10px 1px rgba(196, 196, 196, 0.183);
 }
-.after-hero_flex_head{
+
+.after-hero_flex_head {
     font-weight: bold;
     font-size: 20px;
     height: 80px;
 }
-.after-hero_flex_txt{
+
+.after-hero_flex_txt {
     font-size: 18px;
+}
+
+@media (width <=742px) {
+    .after-hero-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+        min-height: 600px;
+        gap: 4vh;
+        padding: 0vh 5vw 15vw 5vw;
+        text-align: center;
+        font-family: sans-serif;
+        background-color: black;
+        color: white;
+    }
+    
+    .after-hero_flex {
+        display: grid;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 5vh;
+        margin: 5vw;
+    
+    }
+    
+    .after-hero_flex-item {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+        border: 1px solid rgba(184, 184, 184, 0.438);
+        border-radius: 10px;
+        width: 80vw;
+    }
+    
+    .after-hero_flex-item:hover {
+        box-shadow: 0 0 10px 1px rgba(196, 196, 196, 0.183);
+    }
+    
+    .after-hero_flex_head {
+        font-weight: bold;
+        font-size: 18px;
+        height: 40px;
+    }
+    
+    .after-hero_flex_txt {
+        font-size: 16px;
+    }
+
 }

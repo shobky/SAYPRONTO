@@ -1,6 +1,5 @@
 import React from 'react'
 import './benefits.css'
-
 import infinity from '../../../assets/infinity.png'
 import stopwatch from '../../../assets/stopwatch.png'
 import deposit from '../../../assets/deposit.png'
@@ -16,8 +15,8 @@ const Benefits = () => {
     return (
         <div className='benefits'>
            <div className='benefits_header'>
-           <h1>Membership benefits</h1>
-            <h2>Perks so good you'll never need to go anywhere else for your design. Seriously.</h2>
+           <h1 className='be_text_small'>Membership benefits</h1>
+            <h2 className='be_text_bold'>Perks you'll love, and more.</h2>
             <a href='#plans'>Jump to plans</a>
            </div>
             <div className='benefits-grid'>

@@ -1,73 +1,152 @@
-.services {
-    position: relative;
-    display: flex;
-    margin-top: 15vh;
-    gap: 10%;
-    padding-top: 20vh;
-    padding-bottom: 20vh;
+@media (width >=742px) {
+    .services {
+        position: relative;
+        display: flex;
+        margin-top: 15vh;
+        gap: 10%;
+        padding-top: 20vh;
+        padding-bottom: 20vh;
+
+    }
+
+    .services-fixed-section {
+        width: 50%;
+        height: 100vh;
+        flex-direction: column;
+        display: flex;
+        padding: 0vh 5vw;
+        box-sizing: border-box;
+        justify-items: center;
+    }
+
+    .services_head {
+        font-weight: bold;
+        font-size: calc(2vw + 4vh);
+        margin-bottom: 25px;
+        margin-top: 25vh;
+
+    }
+
+    .services-text {
+        font-size: 22px;
+    }
+
+    .services-scroll-section {
+        height: 100vh;
+        overflow-y: scroll;
+        width: 40vw;
+
+    }
+
+    .services-scroll-section::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .services_grid {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .services_grid h2 {
+        font-weight: 500;
+        font-size: 30px;
+        margin-bottom: 5px;
+
+    }
+
+    .services-grip-sub-head {
+        margin-bottom: 25px;
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .services-pills-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 80%;
+    }
+
+    .services_grid-cell {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        width: fit-content;
+        font-size: 18px;
+    }
 
 }
 
-.services-fixed-section {
-    width: 50%;
-    height: 100vh;
-    flex-direction: column;
-    display: flex;
-    padding: 0vh 5vw;
-    box-sizing: border-box;
-    justify-items: center;
-}
+@media (width <=742px) {
+    .services {
+        position: relative;
+    }
 
-.services_head {
-    font-weight: bold;
-    font-size: calc(2vw + 4vh);
-    margin-bottom: 25px;
-    margin-top: 25vh;
+    .services-fixed-section {
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        padding: 0vh 5vw;
+        margin-bottom: 15vh;
+        box-sizing: border-box;
+        text-align: center;
+    }
 
-}
+    .services_head {
+        font-weight: bold;
+        font-size: calc(2vw + 4vh);
+        margin-bottom: 25px;
+        margin-top: 25vh;
 
-.services-text {
-    font-size: 22px;
-}
+    }
 
-.services-scroll-section {
-    height: 100vh;
-    overflow-y: scroll;
-    width: 40vw;
+    .services-text {
+        font-size: 22px;
+    }
 
-}
+    .services-scroll-section {
+        width: 100%;
+        padding: 0 5vw;
+        box-sizing: border-box;
 
-.services-scroll-section::-webkit-scrollbar {
-    width: 0;
-}
-.services_grid{
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-}
+    }
 
-.services_grid h2{
-    font-weight: 500;
-    font-size: 30px;
-    margin-bottom: 5px;
+    .services-scroll-section::-webkit-scrollbar {
+        width: 0;
+    }
 
-}
-.services-grip-sub-head{
-    margin-bottom: 25px;
-    width: 90%;
-    font-size: 20px;
-}
+    .services_grid {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
 
-.services-pills-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    width: 80%;
-}
-.services_grid-cell{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    width: fit-content;
-    font-size: 18px;
+    .services_grid h2 {
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 5px;
+
+    }
+
+    .services-grip-sub-head {
+        margin-bottom: 25px;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .services-pills-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        width: 100%;
+    }
+
+    .services_grid-cell {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        padding: 7px;
+        width: fit-content;
+        font-size: 16px;
+    }
 }

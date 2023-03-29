@@ -4,8 +4,8 @@ import './afterHero.css'
 const AfterHero = () => {
   return (
     <div className='after-hero-container'>
-      <h1 className='text_small' >How It Works</h1>
-      <h2 className='text_bold'>Design-as-a-service is the way forward.</h2>
+      <h1 className='af_text_small' >How It Works</h1>
+      <h2 className='af_text_bold'>Design-as-a-service is the way forward.</h2>
       <p className='text_reg'>No more expensive design agencies and freelancers with long lead times. Our subscription service delivers top-quality design and development, as you need it.</p>
       <div className='after-hero_flex'>
         <div className='after-hero_flex-item'>

@@ -6,8 +6,9 @@ const Memberships = () => {
     return (
         <div className='memberships'>
             <div style={{ scrollBehavior: "smooth" }} id='plans' className='memberships_padding'>
-                <h2 className='memberships_head'>Memberships levels</h2>
-                <p className='memberships_subhead'>Choose your plan</p>
+                <h1 className='ms_text_small'>Pay Monthly Designs</h1>
+                <h2 className='ms_text_bold'>Memberships levels</h2>
+                <p className='memberships_subhead'>As little as $3,995 a month.</p>
                 <div className='memberships_flexbox'>
                     <div className='membership-container'>
                         <div className='membership-top'>

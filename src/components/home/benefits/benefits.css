@@ -1,5 +1,5 @@
 .benefits {
-    padding: 25vh 15vw;
+    padding: 25vh 15vw 5vh 15vw;
     font-family: sans-serif;
 
 }
@@ -11,19 +11,19 @@
     padding-bottom: 5vh;
 }
 
-.benefits h1 {
-    font-size: calc(3vw + 3vh);
-    margin-bottom: 30px;
+.be_text_small {
+    font-size: 16px;
+    font-weight: 1;
+    text-decoration: underline;
+    margin-bottom: 20px;
     text-align: center;
 }
 
-.benefits h2 {
-    font-size: calc(1vw + 1vh);
-    margin-bottom: 20px;
-    font-weight: 100;
-    color: rgb(0, 0, 0);
-    width: 40vw;
+.be_text_bold {
+    font-size: calc(3vw + 3vh);
+    width: 100%;
     text-align: center;
+
 }
 
 .benefits a {
@@ -32,7 +32,7 @@
     color: rgb(255, 255, 255);
     padding: 15px 30px;
     font-size: 16px;
-    margin-top: 15px;
+    margin-top: 35px;
     text-decoration: none;
 }
 
@@ -70,24 +70,20 @@
 }
 
 @media (width <=742px) {
-    .benefits {
-        padding: 20vh 10vw;
 
-    }
-
-    .benefits h1 {
-        font-size: calc(2vw + 4vh);
+    .be_text_small {
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: underline;
         margin-bottom: 20px;
         text-align: center;
     }
-
-    .benefits h2 {
-        font-size: calc(1vw + 1.5vh);
-        margin-bottom: 20px;
-        font-weight: 100;
-        color: rgb(0, 0, 0);
-        width: 70vw;
+    
+    .be_text_bold {
+        font-size: calc(3vw + 3vh);
+        width: 100%;
         text-align: center;
+    
     }
 
     .benefits a {

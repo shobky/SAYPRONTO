@@ -3,9 +3,26 @@
     background-color: #000000;
     margin-top: 15vh;
     padding: 15vh 0;
+    position: relative;
+    top: 5px;
 }
 
-@media (width < 742px) {
+@media (width <=742px) {
+    .ms_text_small {
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: underline;
+        margin-bottom: 25px;
+        text-align: center;
+        color: white;
+    }
+
+    .ms_text_bold {
+        font-size: calc(3vw + 3vh);
+        text-align: center;
+        color: white;
+
+    }
 
     .memberships_img-container {
         width: 100%;
@@ -14,35 +31,6 @@
         top: 50vh;
     }
 
-    .memberships_drippy {
-        width: 100%;
-        animation: drip 10s infinite alternate;
-        position: sticky;
-        transition: ease-in-out 2s;
-        top: 50vh;
-        margin: auto;
-        left: 0;
-        right: 0;
-
-    }
-
-    @keyframes drip {
-        from {
-            width: 100%;
-
-        }
-
-        to {
-            width: 130%;
-        }
-    }
-
-    .memberships_head {
-        text-align: center;
-        font-size: calc(2vw + 4vh);
-        color: rgb(0, 0, 0);
-        margin-top: 10vh;
-    }
 
     .memberships_subhead {
         text-align: center;
@@ -72,9 +60,8 @@
     .membership-top,
     .membership-bottom {
         width: 90vw;
-        background-color: #f9f6e6;
+        background-color: #ffffff;
         padding: 35px 30px;
-
         /* border: 1px solid rgba(174, 174, 174, 0.341); */
     }
 
@@ -147,18 +134,19 @@
 }
 
 @media (width >=742px) {
-    .memberships_head {
-        text-align: center;
-        font-size: calc(2vw + 4vh);
-        color: rgb(255, 255, 255);
+    .ms_text_small {
+        font-size: 16px;
+        font-weight: 1;
+        text-decoration: underline;
         margin-bottom: 25px;
+        color: white;
+        text-align: center;
     }
 
-    .memberships_subhead {
+    .ms_text_bold {
+        font-size: calc(3vw + 3vh);
         text-align: center;
-        font-size: calc(1vw + vh);
-        margin-bottom: 5vh;
-        color: rgba(255, 255, 255, 0.849);
+        color: white;
 
     }
 
