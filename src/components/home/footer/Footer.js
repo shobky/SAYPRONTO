@@ -8,11 +8,11 @@ const Footer = () => {
             <div className='footer_header'>
                 <h1>See if Saypronto is right for you. {`(It totally is.)`}</h1>
                 <p>Get a guided tour through Designjoy, and find out how you and your team can change the way you source design, forever.</p>
-                <a className='footer_top-btn' href='#plans'>Get started</a>
+                <a className='footer_top-btn' href='/#plans'>Get started</a>
             </div>
 
             <div className='footer_footer'>
-                <h2><a href='#hero' style={{textDecoration:"none", color:"inherit"}}>Saypronto</a></h2>
+                <h2><a href='/#hero' style={{textDecoration:"none", color:"inherit"}}>Saypronto</a></h2>
                 <ul>
                     <li>pricing</li>
                     <li>FAQs</li>

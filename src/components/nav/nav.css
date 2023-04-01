@@ -29,7 +29,7 @@
 }
 
 .nav-link {
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(41, 41, 41);
     text-decoration: none;
     opacity: .9;
@@ -79,7 +79,7 @@
     }
 
     .nav-menu-btn {
-        font-size: 18px;
+        font-size: 16px;
         z-index: 2;
         position: relative;
     }

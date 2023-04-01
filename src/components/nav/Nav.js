@@ -29,12 +29,12 @@ const Nav = ({ handleActivePage, activePage }) => {
                 <div className='plus1036-display-none'>
                     <a href='/#home' className='nav-link' onClick={() => setIsMenuOpen(false)}>Home</a>
                 </div>
-                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='#benefits'>benefits</a>
-                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='#services'>Services</a>
-                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='#plans'>memberships</a>
-                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='#benefits'>Work</a>
-                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='#benefits'>Use Cases</a>
-                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='#benefits'>FAQs</a>
+                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#benefits'>benefits</a>
+                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#services'>Services</a>
+                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#plans'>memberships</a>
+                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#benefits'>Work</a>
+                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#benefits'>Use Cases</a>
+                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#benefits'>FAQs</a>
             </nav >
         </div >
     )

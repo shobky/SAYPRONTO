@@ -1,0 +1,27 @@
+.calendly-inline-widget {
+    min-width: 430px;
+    height: 100%;
+    padding-bottom: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (width <=742px) {
+    .calendly-inline-widget {
+        min-width: 300px;
+        max-width: 90vw;
+        height: 85vh;
+        padding-bottom: 25vh;
+        margin-left: 5vw;
+        margin-top: 5vh;
+        padding-top: 5vh;
+
+    }        
+}
+/*
+.calednly-container{
+    height: 600px;
+    position: relative;
+    padding: 0vh 10vw;
+    box-sizing: border-box;
+} */

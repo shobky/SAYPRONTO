@@ -215,8 +215,15 @@
         font-size: 16px;
         font-weight: bold;
         margin-top: 15px;
+        z-index: 2;
     }
 
+    .membership_main-btn:hover {
+        cursor: pointer;
+    }
+    .membership_main-btn:active {
+        background-color: rgb(18, 18, 20);
+    }
 
     .membership_second-btn {
         background-color: transparent;
