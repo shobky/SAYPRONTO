@@ -15,7 +15,7 @@ const Benefits = () => {
     return (
         <div id='benefits' className='benefits'>
             <div className='benefits_header'>
-                <h1 className='be_text_small'><img src={svg} className='svg-ico' />Membership benefits</h1>
+                <h1 className='be_text_small'><img src={svg} alt='' className='svg-ico' />Membership benefits</h1>
                 <h2 className='be_text_bold'>Perks you'll love, and more.</h2>
                 <a href='#plans'>Jump to plans</a>
             </div>

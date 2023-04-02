@@ -1,7 +1,7 @@
 @media (width >=736px) {
     .nav-container {
         display: flex;
-        gap: 3.5vw;
+        gap: 2vw;
         align-items: center;
     }
 
