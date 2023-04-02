@@ -10,7 +10,7 @@ const Home = () => {
 
     return (
         <div className='home'>
-            <section id='home' className='hero'>
+            <section id='#hero' className='hero'>
                 <div className='hero_container'>
                     <h1 className='text_small'><img src={design} alt="" className="svg-ico" /> Design & Development Agency</h1>
                     <h2 className='text_bold'>The unlimited design subscription that does it all.</h2>
