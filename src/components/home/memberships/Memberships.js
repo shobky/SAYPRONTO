@@ -1,18 +1,14 @@
 import React from 'react'
-import drippy from '../../../assets/abstractwhite.jpg'
 import './memberships.css'
-import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
 const Memberships = () => {
 
-    // const apiKey = `eyJraWQiOiIxY2UxZTEzNjE3ZGNmNzY2YjNjZWJjY2Y4ZGM1YmFmYThhNjVlNjg0MDIzZjdjMzJiZTgzNDliMjM4MDEzNWI0IiwidHlwIjoiUEFUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2F1dGguY2FsZW5kbHkuY29tIiwiaWF0IjoxNjgwMzY5ODE4LCJqdGkiOiI0ZjY3MjU5OS1lMTVjLTRmMzMtOGI4ZS03OWUzNTIzZDMzNWEiLCJ1c2VyX3V1aWQiOiIxOTkxYjgzYS02NDIwLTRiNWEtYTY4Mi01MzA0NDM3MGE0YzkifQ.EDYLQkxhK2KoY627vWP7HEfBk5FrMkmb33z37BDaJJUPFHueEbB5JPdeQWRxbywoMw9kaGM0s06DLy-DyUsb1A`
     const navigate = useNavigate()
     
 
     const handleGetStarted = async () => {
         navigate('/book-a-meeting')
-       
     }
     return (
         <div id='plans' className='memberships'>

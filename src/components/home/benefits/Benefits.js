@@ -7,18 +7,18 @@ import life from '../../../assets/life.png'
 import maximize from '../../../assets/maximize.png'
 import fingerprint from '../../../assets/fingerprint.png'
 
-
+import svg from '../../../assets/svgs/canvas.SVG'
 
 
 
 const Benefits = () => {
     return (
         <div id='benefits' className='benefits'>
-           <div className='benefits_header'>
-           <h1 className='be_text_small'>Membership benefits</h1>
-            <h2 className='be_text_bold'>Perks you'll love, and more.</h2>
-            <a href='#plans'>Jump to plans</a>
-           </div>
+            <div className='benefits_header'>
+                <h1 className='be_text_small'><img src={svg} className='svg-ico' />Membership benefits</h1>
+                <h2 className='be_text_bold'>Perks you'll love, and more.</h2>
+                <a href='#plans'>Jump to plans</a>
+            </div>
             <div className='benefits-grid'>
                 <div className='benefit-contaienr'>
                     <img alt='' className='benefits_ico' src={infinity} />

@@ -30,7 +30,8 @@
 }
 
 .after-hero_flex-item:hover {
-    box-shadow: 0 0 10px 1px rgba(196, 196, 196, 0.183);
+    box-shadow: 0 0 10px 1px   rgba(131, 39, 235, 0.399);
+    ;
 }
 
 .after-hero_flex_head {
@@ -42,7 +43,9 @@
 .after-hero_flex_txt {
     font-size: 18px;
 }
-
+.after-hero-svg{
+    filter: invert();
+}
 @media (width <=742px) {
     .after-hero-container {
         display: flex;

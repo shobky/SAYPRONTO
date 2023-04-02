@@ -1,10 +1,12 @@
 import React from 'react'
 import './services.css'
+import svg from '../../../assets/svgs/lightining.SVG'
 const Services = () => {
     return (
         <div id="services" className='services'>
             <div className='services-fixed-section'>
                 <div className='services-fixed-text-container'>
+                    <h1 className='se-text-small'><img src={svg} alt='' className='svg-ico'/>Services</h1>
                     <p className='services_head'>A full-suite of capabilities.</p>
                     <p className='services-text'>
                         We are your all-in-one creative team, and pride ourselves on being well-rounded in our abilities. From design to development, we got you covered.

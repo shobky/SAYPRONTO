@@ -1,9 +1,11 @@
 import React, { lazy, Suspense, useEffect } from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
-import Nav from './components/nav/Nav'
-import Footer from './components/home/footer/Footer'
+import Loading from './components/loading/Loading'
 const Home = lazy(() => import('./pages/home/Home'))
 const CalendlyWidget = lazy(() => import('./components/Calendly'))
+const Nav = lazy(() => import('./components/nav/Nav'))
+const Footer = lazy(() => import('./components/home/footer/Footer'))
+
 
 const App = () => {
 
@@ -18,13 +20,13 @@ const App = () => {
             <Nav />
 
             <Routes>
-                <Route path='/' exact element={<Suspense >
+                <Route path='/' exact element={<Suspense fallback={<Loading />} >
                     <Home />
                 </Suspense>} />
                 <Route path='/book-a-meeting' element={
-                <Suspense>
-                    <CalendlyWidget />
-                </Suspense>} />
+                    <Suspense fallback={<Loading />}>
+                        <CalendlyWidget />
+                    </Suspense>} />
             </Routes>
             <Footer />
 

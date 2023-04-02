@@ -15,8 +15,11 @@
     font-size: 16px;
     font-weight: 1;
     text-decoration: underline;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .be_text_bold {
@@ -27,7 +30,7 @@
 }
 
 .benefits a {
-    background-color: rgb(10, 9, 9);
+    background-color: rgb(131, 39, 235);
     border: none;
     color: rgb(255, 255, 255);
     padding: 15px 30px;
@@ -36,6 +39,10 @@
     text-decoration: none;
 }
 
+.benefits a:hover {
+    background-color: rgb(93, 3, 196);
+
+}
 .benefit-contaienr {
     display: flex;
     flex-direction: column;
@@ -75,7 +82,7 @@
         font-size: 16px;
         font-weight: 400;
         text-decoration: underline;
-        margin-bottom: 20px;
+        margin-bottom: 4vh;
         text-align: center;
     }
     
@@ -87,13 +94,11 @@
     }
 
     .benefits a {
-        background-color: black;
-        padding: 20px;
+        background-color: rgb(131, 39, 235);
+        padding: 15px;
         color: white;
         text-decoration: none;
-        font-weight: bold;
-        font-size: 1.2rem;
-        border-radius: 50px;
+        font-size: 16px;
     }
 
     .benefits-grid {

@@ -141,7 +141,7 @@
     .footer_footer ul {
         font-size: 1rem;
         display: grid;
-        grid-template-columns: 50vw 40vw;
+        grid-template-columns: 40vw 40vw;
         list-style: none;
         margin-top: 3vh;
     }

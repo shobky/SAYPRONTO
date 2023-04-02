@@ -35,6 +35,9 @@
     text-decoration: underline;
     color: white;
     margin-top: 25vh;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .af_text_bold {
@@ -50,20 +53,17 @@
 }
 
 .hero_btn {
-    background-color: black;
+    background-color: rgb(131, 39, 235);
     text-decoration: none;
     color: white;
-    font-size: 18px;
-    padding: 25px 30px;
+    font-size: 16px;
+    padding: 20px 30px;
     transition: ease-in-out .2s;
-
 }
 
 .hero_btn:hover {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 10px 1px rgba(195, 188, 188, 0.321);
-    margin-top: -1.5px;
-    color: rgb(0, 0, 0);
+    background-color: rgb(93, 3, 196);
+    color: rgb(255, 255, 255);
     transition: ease-in-out .2s;
 }
 
@@ -76,7 +76,6 @@
         min-height: 600px;
         gap: 4vh;
         padding: 5vh 10vw 0 10vw;
-        box-sizing: border-box;
         text-align: center;
         font-family: sans-serif;
     }
@@ -84,7 +83,6 @@
     .text_small {
         font-size: 16px;
         font-weight: 400;
-        margin-bottom: 0vh;
         text-decoration: underline;
     }
 
@@ -100,6 +98,7 @@
         text-decoration: underline;
         color: white;
         margin-top: 35vh;
+
     }
 
     .af_text_bold {
@@ -115,7 +114,7 @@
     }
 
     .hero_btn {
-        background-color: black;
+        background-color: rgb(93, 3, 196);
         text-decoration: none;
         color: white;
         font-size: 14px;
@@ -124,11 +123,5 @@
 
     }
 
-    .hero_btn:hover {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0 0 10px 1px rgba(195, 188, 188, 0.321);
-        margin-top: -1.5px;
-        color: rgb(0, 0, 0);
-        transition: ease-in-out .2s;
-    }
+ 
 }

@@ -27,14 +27,15 @@ const Nav = ({ handleActivePage, activePage }) => {
             }</div>
             <nav className={isMenuOpen ? 'nav-container-show' : 'nav-container'}>
                 <div className='plus1036-display-none'>
-                    <a href='/#home' className='nav-link' onClick={() => setIsMenuOpen(false)}>Home</a>
+                    <a href='/' className='nav-link' onClick={() => setIsMenuOpen(false)}><Link className='nav-link' to='/'>Home</Link></a>
                 </div>
-                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#benefits'>benefits</a>
-                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#services'>Services</a>
-                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#plans'>memberships</a>
-                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#benefits'>Work</a>
-                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#benefits'>Use Cases</a>
-                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#benefits'>FAQs</a>
+                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#benefits'>benefits <div className='nav-link-line'></div></a>
+                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#services'>Services <div className='nav-link-line'></div></a>
+                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#plans'>memberships <div className='nav-link-line'></div></a>
+                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#benefits'>Work <div className='nav-link-line'></div></a>
+                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#benefits'>Use Cases <div className='nav-link-line'></div></a>
+                <a onClick={() => setIsMenuOpen(false)} className='nav-link' href='/#benefits'>FAQs <div className='nav-link-line'></div></a>
+                <Link onClick={() => setIsMenuOpen(false)} to="/book-a-meeting" className='nav-link nav-link_special'>Book Call</Link>
             </nav >
         </div >
     )

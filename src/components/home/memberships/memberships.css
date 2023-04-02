@@ -110,7 +110,7 @@
 
 
     .membership_main-btn {
-        background-color: rgb(10, 9, 9);
+        background-color: rgb(131, 39, 235);
         border: none;
         color: rgb(255, 255, 255);
         padding: 15px 30px;
@@ -186,7 +186,7 @@
         color: rgb(0, 0, 0);
         font-size: 1.2rem;
         height: 50vh;
-        min-height: 450px;
+        min-height: 325px;
 
     }
 
@@ -199,16 +199,14 @@
         font-size: 1.2rem;
         height: 38vh;
         border-top: 2px solid white;
-        min-height: 350px;
-
-
+        min-height: 325px;
 
     }
 
 
 
     .membership_main-btn {
-        background-color: rgb(10, 9, 9);
+        background-color: rgb(131, 39, 235);
         border: none;
         color: rgb(255, 255, 255);
         padding: 15px 30px;
@@ -220,21 +218,12 @@
 
     .membership_main-btn:hover {
         cursor: pointer;
+        background-color: rgb(93, 3, 196);
+        color: white !important;
     }
+
     .membership_main-btn:active {
         background-color: rgb(18, 18, 20);
-    }
-
-    .membership_second-btn {
-        background-color: transparent;
-        border: none;
-        font-size: 1rem;
-        font-weight: bold;
-        /* border-bottom: 1px dashed black; */
-        opacity: .8;
-        text-align: center;
-        margin: 15px 0;
-
     }
 
     .membership-subheading {

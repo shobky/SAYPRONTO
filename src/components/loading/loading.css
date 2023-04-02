@@ -1,0 +1,46 @@
+.loading-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    overflow: hidden;
+    background-color: white;
+    z-index: 2;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.loading-container h1{
+    font-size: 18px;
+    opacity: .1;
+    animation: fadein 4s forwards;
+    
+}
+
+@keyframes fadein {
+    from{
+        opacity: .1;
+        color: rgb(202, 202, 202);
+
+    }
+    to{
+        opacity: 1;
+        color: rgb(33, 32, 32);
+    }
+    
+}
+.loading-ico{
+    position: absolute;
+    bottom: 15vh;
+    animation: spinner .5s infinite linear;
+}
+
+@keyframes spinner {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+    
+}
