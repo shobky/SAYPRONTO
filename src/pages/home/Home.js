@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from 'react'
 import './home.css'
-import design from '../../assets/svgs/design + webflow.svg'
+import design from '../../assets/svgs/hero.svg'
 const AfterHero = lazy(() => import('../../components/home/afterHero/AfterHero'))
 const Benefits = lazy(() => import('../../components/home/benefits/Benefits'))
 const Services = lazy(() => import('../../components/home/services/Services'))
